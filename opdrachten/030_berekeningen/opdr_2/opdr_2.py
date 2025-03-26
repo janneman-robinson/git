@@ -4,7 +4,8 @@
 
 # Hier komt je code...
 
-c = ...
-f = ...
+c = -12
+f = 102
 
-print()
+graden_fahrenheit = c * 1.8 + 32
+print(c, "graden celsius is gelijk aan",graden_fahrenheit,"graden fahrenheit")
