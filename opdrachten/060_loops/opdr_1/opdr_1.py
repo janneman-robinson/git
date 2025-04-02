@@ -6,4 +6,8 @@
 
 # Hier start de for-loop....
 
-my_list = []
+getallen = []
+for i in range(1, 11):
+    getallen.append(i)
+
+print("Lijst met getallen 1 t/m 10:", getallen)
