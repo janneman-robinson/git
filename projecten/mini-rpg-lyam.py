@@ -26,7 +26,7 @@ if keuze == "1":
             time.sleep(2)
             print("\033[31mEinde 2: Loop\033[0m")
         else:
-            print("de keuze duurde te lang, de heks keek je boos aan en propte uit woede beide pillen in je mond, de heks lachte terwijl je zelf ook langzaam in een heks veranderde")
+            print("\033[33mde keuze duurde te lang, de heks keek je boos aan en propte uit woede beide pillen in je mond, de heks lachte terwijl je zelf ook langzaam in een heks veranderde\033[0m")
             time.sleep(2)
             print("\033[31mEinde 3: Heks \033[0m")
     elif keuze_pad == "2":
@@ -41,11 +41,16 @@ elif keuze == "2":
     print("\033[33mJe loopt de grot in... en hoort iets grommen.\033[0m")
 else:
     print("\033[33mJe blijft net iets te lang stil staan. Iets komt dichterbij...\033[0m")
-    print("Er verschijnt een bigfoot voor je! wat ga je doen?")
-    keuze_bigfoot = input("ik (1) Sla bigfoot op zijn hoofd met een stok, of kan ik toch beter (2) wegrennen?")
+    print("\033[33mEr verschijnt een bigfoot voor je! wat ga je doen?\033[0m")
+    keuze_bigfoot = input("\033[43mje (1) Slaat bigfoot op zijn hoofd met een stok, of kan je toch beter (2) wegrennen...\033[0m")
 
     if keuze_bigfoot == "1":
-        print("\033[33mJe voelt (zonder oogcontact te verliezen) over de grond op zoen naar een stok, je vind een dikke tak en breekt hem op bigfoots hoofd, uit woede trekt hij je armen er af :(\033[0m")
+        print("\033[33mJe voelt (zonder oogcontact te verliezen) over de grond op zoek naar een stok, je vind een dikke tak en breekt hem op bigfoots hoofd, uit woede trekt hij je armen er af :(\033[0m")
 
         time.sleep(2)
         print("\033[31mEinde 6: Lunch van bigfoot\033[0m")
+
+    elif keuze_bigfoot == "2":
+        print("\033[33mJe rend to hard als je kan weg, en bigfoot rend schreeuwend achter je aan, je komt uit op een verharde weg, voor je het weet lig je op de motorkap van een carglass busje\033[0m")
+        time.sleep(2)
+        print("\033[31mEinde 7: carglass repareert, carglass vervangt\033[0m")
