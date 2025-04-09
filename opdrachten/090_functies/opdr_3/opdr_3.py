@@ -3,18 +3,20 @@
 # Groep:
 
 
-def kubus_vol(m):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+import math
 
-def bol_vol(r):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+# Functie voor het volume van een kubus
+def kubus_vol(zijde):
+    return zijde ** 3  # Volume van een kubus is zijde³
 
-zijde = 5
-radius = 4
+# Functie voor het volume van een bol
+def bol_vol(radius):
+    return (4/3) * math.pi * (radius ** 3)  # Volume van een bol is (4/3) * pi * r³
 
-print(kubus_vol(5))
-print(bol_vol(4))
+# Voorbeeld van het gebruik van de functies
+volume_kubus = kubus_vol(5)
+volume_bol = bol_vol(4)
+
+# Print de resultaten
+print(f"De inhoud van deze kubus is: {volume_kubus}")
+print(f"De inhoud van deze bol is: {volume_bol}")
