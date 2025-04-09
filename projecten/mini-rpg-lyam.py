@@ -45,7 +45,30 @@ if keuze == "1":
         time.sleep(2)
         print("\033[31mEinde 5: Dat is zuur\033[0m")
 elif keuze == "2":
-    print("\033[33mJe loopt de grot in... \033[0m")
+    print("\033[33mJe loopt de grot in... je komt aan in een holle ruimte, in de kamer bevind zich een paars- gloeiend ei, en een grote zak goud\033[0m")
+    keuze_grot = input("\033[43mOnderzoek het (1) ei, of bekijk de (2) grote zak met goud.\033[0m")
+    if keuze_grot == "1":
+        print("\033[33mJe raakt het ei zachtjes aan, opeens begint deze erg snel te draaien en veller te gloeien, door alle plots beweging knalt hij tegen een muur en breekt hij in wel 100 stukjes\033[0m")
+        print("\033[33mer springt er een gillende alien uit, voordat je ook maar een gedachte kan krijgen over deze vreemde situatie, schiet de alien je dood met een lazer pistool.\033[0m")
+        time.sleep(2)
+        print("\033[31mEinde 6: gillende alien\033[0m")
+    elif keuze_grot == "2":
+        print("\033[33mje loopt naar de zak met goud, er is niemand die de zak bewaakt, je kan hem meenemen, of natuurlijk laten staan.\033[0m")
+        keuze_zak = input("\033[43m(1) neem de zak mee, of (2) laat hem staan.")
+        if keuze_zak == "1":
+            print("\033[33m'Net als je de zak op wil pakken springt er een goblin tussen het goud vandaan.\033[0m")
+            print("\033[33m'Mijn naam is kevin de goblin, en dit goud is van mij! je mag de zak best hebben, maar alleen als je wat vragen juist weet te beantwoorden!'\033[0m")
+            print("\033[33m'Vraag 1: wie schilderde de Mona Lisa?\033[0m")
+            keuze_vraag_1 = input("\033[43m(1) leonardo dicaprio, (2) leonardo da vinci, of was het (3) leonardo vibonacci?\033[0m")
+            if keuze_vraag_1 == "1":
+                print("\033[33m'DAT IS FOUT MUAHAHAHH, DEZE ZAK GOUD BLIJFT LEKKER VAN MIJ\033[0m")
+                time.sleep(2)
+                print("\033[31mEinde 7: Fout andwoord :(\033[0m")
+            elif keuze_vraag_1 == "2":
+                print()
+
+
+
 else:
     print("\033[33mJe blijft net iets te lang stil staan. Iets komt dichterbij...\033[0m")
     print("\033[33mEr verschijnt een bigfoot voor je! wat ga je doen?\033[0m")
