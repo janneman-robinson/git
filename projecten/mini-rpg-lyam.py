@@ -97,6 +97,12 @@ elif keuze == "2":
                 print("\033[33m'DAT IS FOUT MUAHAHAHH, DEZE ZAK GOUD BLIJFT LEKKER VAN MIJ'\033[0m")
                 time.sleep(2)
                 print("\033[31mEinde 7: Fout antwoord, stink goblin\033[0m")
+        elif keuze_zak == "2":
+            print("\033[33mJe laat de zak staan, en net als je weg wil lopen, springt er een boze goblin uit, hij zegt:'HEE WIL JE MIJN ZAK GOUD NIET HEBBEN?!'.\033[0m")
+            print("\033[33mje schud je hoofd en draait je om, de boze goblin pakte een stuk goud en sloeg ermee op je hoofd.\033[0m")
+            time.sleep(2)
+            print("\033[31mEinde 9: boze goblin\033[0m")
+
 elif keuze == "3":
     print("\033[33mTerwijl je rondspookt door het bos hoor je wat in de struiken... Iets komt dichterbij...\033[0m")
     print("\033[33mOpeens verschijnt er een bigfoot voor je! wat ga je doen?\033[0m")
