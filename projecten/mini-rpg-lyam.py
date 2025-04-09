@@ -38,7 +38,7 @@ if keuze == "1":
         time.sleep(2)
         print("\033[31mEinde 5: Dat is zuur\033[0m")
 elif keuze == "2":
-    print("\033[33mJe loopt de grot in... en hoort iets grommen.\033[0m")
+    print("\033[33mJe loopt de grot in... \033[0m")
 else:
     print("\033[33mJe blijft net iets te lang stil staan. Iets komt dichterbij...\033[0m")
     print("\033[33mEr verschijnt een bigfoot voor je! wat ga je doen?\033[0m")
